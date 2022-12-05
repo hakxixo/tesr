@@ -1,18 +1,11 @@
 // ==UserScript==
 // @Name              QX每日色图脚本
-// @Author            Cuttlefish
-// @TgChannel         https://t.me/ddgksf2021
-// @WechatID          公众号墨鱼手记
-// @UpdateTime        20210212
-// @Appreciation      觉得不错👏去公众号菜单栏赞助我喝杯🥤
-// @WebURL            https://api.lolicon.app/#/setu
-// @Quota             300次/天
 // @Attention         请在本地使用此脚本，便于填写ApiKey
 // @ScriptURL         https://github.com/ddgksf2013/Scripts/raw/main/setu.js
 // ==/UserScript==
 
 let userApikey   = '02141712638d678dd02bb5' //请在 Telegram 内使用 @loliconApiBot 申请
-let userR18      = 2 //18禁为1 非为0 2是混合
+let userR18      = 1 //18禁为1 非为0 2是混合
 let userKeyword  = ''//搜索关键字
 let userNum      = 1 //一次返回的结果数量，范围为1到10，数字的数量亦为弹框的次数
 var request = {
