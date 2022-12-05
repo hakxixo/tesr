@@ -1,5 +1,12 @@
 // ==UserScript==
 // @Name              QX每日色图脚本
+// @Author            Cuttlefish
+// @TgChannel         https://t.me/ddgksf2021
+// @WechatID          公众号墨鱼手记
+// @UpdateTime        20210212
+// @Appreciation      觉得不错👏去公众号菜单栏赞助我喝杯🥤
+// @WebURL            https://api.lolicon.app/#/setu
+// @Quota             300次/天
 // @Attention         请在本地使用此脚本，便于填写ApiKey
 // @ScriptURL         https://github.com/ddgksf2013/Scripts/raw/main/setu.js
 // ==/UserScript==
