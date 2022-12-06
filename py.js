@@ -1,15 +1,14 @@
 /*
 [rewrite_local]
-#本地重写
 
-#重写路径
-^ http:\/\/book\.haoapp8\.cn url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/py.js
+
+^http:\/\/book\.haoapp8\.cn url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/py.js
 [MITM]
-#域名
+
 hostname = book.haoapp8.cn
 
 */
-var body = $response.body; //声明一个变量body并以响应消息体赋
+var body = $response.body; 
 let obj = JSON.parse($response.body);
 obj= {
   "rules" : [
