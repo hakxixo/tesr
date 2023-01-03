@@ -1,5 +1,4 @@
-###小程序:活动抽奖
-###每次二十金币
+
 /**
  * @fileoverview Template to compose HTTP reqeuest.
  * 
