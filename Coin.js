@@ -1,9 +1,5 @@
-
-/**
- * @fileoverview Template to compose HTTP reqeuest.
- * 
- */
-
+//微信小程序：活动抽奖
+//20金币一次
 const url = `https://api-hdcjgo.9w9.com//receiveTask`;
 const method = `POST`;
 const headers = {
