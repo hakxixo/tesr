@@ -5,7 +5,7 @@
 
 *******************************
 [rewrite_local]
-^http[s]?:\/\/tiaoji.hanxiaocong.cn\/api\/member url script-response-body hanxiaocong.js
+^http[s]?:\/\/tiaoji.hanxiaocong.cn\/api\/member url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/ky.js
 [mitm] 
 hostname = tiaoji.hanxiaocong.cn
 
