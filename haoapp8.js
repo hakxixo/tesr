@@ -4,7 +4,7 @@
 
 *******************************
 [rewrite_local]
-^http[s]?:\/\/book.haoapp8.cn\/API\/programming\/v5\/booklist.php url script-response-body haoapp8.js
+^http[s]?:\/\/book.haoapp8.cn\/API\/programming\/v5\/booklist.php url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/haoapp8.js
 [mitm] 
 hostname = book.haoapp8.cn
 
