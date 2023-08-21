@@ -3,7 +3,6 @@
 *******************************
 
 [rewrite_local]
-
 ^https:\/\/mbd\.baidu\.com\/userx\/v1\/info\/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Zymh.js
 
 [mitm]
@@ -15,7 +14,7 @@ var body = $response.body;
 var url = $request.url;
 var obj = JSON.parse(body);
 
-const vip = '/account/me';
+const vip = '/userx/v1/info';
 
 if (url.indexOf(vip) != -1) {
     obj.data.vip = true;
