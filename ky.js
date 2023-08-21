@@ -10,6 +10,6 @@
 hostname = tiaoji.hanxiaocong.cn
 
 *******************************/
-var modifiedHeaders = $request.headers;
-modifiedHeaders[''] = 'is_vip":1';
-$done({headers : modifiedHeaders});
+var body=$response.body;
+body = body.replace(/is_vip\":\d+/g,'is_vip":1');
+$done(body);
