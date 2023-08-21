@@ -3,8 +3,7 @@
 *******************************
 
 [rewrite_local]
-^https:\/\/mbd\.baidu\.com\/userx\/v1\/info\/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Zymh.js
-
+^https:\/\/mbd\.baidu\.com\/userx\/v1\/info\/ url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/kk.js
 [mitm]
 hostname = mbd.baidu.com
 
