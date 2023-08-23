@@ -3,10 +3,11 @@
 
 *******************************
 [rewrite_local]
-^http[s]?:\/\/app.bilibili.com\/x\/v2\/account\/(myinfo|mine) url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/bilibili.js
-[mitm] 
-hostname = app.bilibili.com
 
+^http[s]?:\/\/((app|api)\.(\w{2,15})?\.(com|cn)).*player\.(v3|v2|v1).Play(URL|View).*$ url script-request-header https://raw.githubusercontent.com/hakxixo/tesr/main/bilibili.js
+
+[mitm]
+hostname = *.biliapi.*, *.bilibili.*
 *******************************/
 var body = $request.body;
 body = body.replace(/coins\":\d+/g, 'coins":999999');
