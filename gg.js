@@ -4,7 +4,7 @@
 
 *******************************
 [rewrite_local]
-^http[s]?:\/\/wx.appds.cn\/api\/posts url script-response-body gg.js
+^http[s]?:\/\/wx.appds.cn\/api\/posts url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/gg.js
 [mitm] 
 hostname = wx.appds.cn
 
