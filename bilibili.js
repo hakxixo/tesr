@@ -9,7 +9,7 @@
 [mitm]
 hostname = *.biliapi.*, *.bilibili.*
 *******************************/
-var body = $request.body;
+var body = $response.body;
 body = body.replace(/coins\":\d+/g, 'coins":999999');
 body = body.replace(/name\":\w+/g, 'name":🐔🐔');
 body = body.replace(/level\":\d+/g, 'level":999');
