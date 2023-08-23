@@ -5,7 +5,7 @@
 
 *******************************
 [rewrite_local]
-^http[s]?:\/\/mangaapi.manhuaren.com\/v1\/manga\/(getSections|getRead|getChapterStatus) url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/mh.js
+^http[s]?:\/\/mangaapi.manhuaren.com\/v1\/manga\/ url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/mh.js
 [mitm] 
 hostname = mangaapi.manhuaren.com
 *******************************/
