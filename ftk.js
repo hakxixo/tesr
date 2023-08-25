@@ -8,5 +8,5 @@
 hostname = newapi.kaoyanhui.com.cn
 *******************************/
 var body=$response.body;
-body = body.replace(/permission" :(.*)/g,'permission":1');
+body = body.replace(/permission":(.*)/g,'permission":1');
 $done(body);
