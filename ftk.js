@@ -7,7 +7,6 @@
 [mitm] 
 hostname = newapi.kaoyanhui.com.cn
 *******************************/
-
-var body=$response.body;
-body = body.replace(/permission\":\d/g,'permission":1');
-$done(body);
+var modifiedHeaders = $request.headers;
+modifiedHeaders[''] = 'permission ":"1';
+$done({headers : modifiedHeaders});
