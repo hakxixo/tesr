@@ -3,9 +3,9 @@
 脚本作者：hakxixo
 *******************************
 [rewrite_local]
-^http[s]?:\/\/*.kaoyanhui.com.cn\/index.php\/api\/chapter\/* url script-response-body ftk.js
+^http[s]?:\/\/*.kaoyanhui.com.cn\/index.php\/api\/chapter\/* url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/ftk.js
 [mitm] 
-hostname = *.kaoyanhui.com.cn
+hostname = newapi.kaoyanhui.com.cn
 *******************************/
 
 var body=$response.body;
