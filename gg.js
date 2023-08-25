@@ -4,8 +4,8 @@
 
 *******************************
 [rewrite_local]
-^http[s]?:\/\/wx.appds.cn\/api\/posts\/* url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/gg.js
-^http[s]?:\/\/gd.hseon.cn\/api\/posts\/* url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/gg.js
+^http[s]?:\/\/wx.appds.cn\/api\/* url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/gg.js
+^http[s]?:\/\/gd.hseon.cn\/api\/* url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/gg.js
 [mitm] 
 hostname = wx.appds.cn
 hostname = gd.hseon.cn
