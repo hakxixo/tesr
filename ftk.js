@@ -1,9 +1,10 @@
 /*******************************
-脚本名称:  法题库破解
+脚本名称:  法题库
 脚本作者：hakxixo
+
 *******************************
 [rewrite_local]
-^http[s]?:\/\/*.kaoyanhui.com.cn\/index.php\/api\/* url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/ftk.js
+^http[s]?:\/\/*.kaoyanhui.com.cn\/index.php\/* url script-response-body kaoyanhui.js
 [mitm] 
 hostname = *.kaoyanhui.com.cn
 
