@@ -10,5 +10,5 @@ hostname = *.appds.cn
 hostname = *.hseon.cn
 *******************************/
 var body=$response.body;
-body = body.replace(/adRead\":\w+/g,'adRead":false');
+body = body.replace(/adRead\":\w+/g,'adRead":false').replace(/status\":\w+/g,'status":true');
 $done(body);
