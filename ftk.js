@@ -4,7 +4,7 @@
 
 *******************************
 [rewrite_local]
-^http[s]?:\/\/*.kaoyanhui.com.cn\/index.php\/* url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/ftk.js
+^http[s]?:\/\/*.kaoyanhui.com.cn\/index.php\/api\/chapter\/* url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/ftk.js
 [mitm] 
 hostname = *.kaoyanhui.com.cn
 
