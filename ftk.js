@@ -10,5 +10,5 @@ hostname = *.kaoyanhui.com.cn
 
 *******************************/
 var body=$response.body;
-body = body.replace(/permission\":\d/g,'permission":1').replace(/is_vip\":\d/g,'is_vip":1');
+body = body.replace(/permission\":\d/g,'permission":1');
 $done(body);
