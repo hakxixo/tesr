@@ -13,5 +13,8 @@ hostname = *.next.bspapp.com
 
 *******************************/
 
-var body = $response.body.replace(/.+/g,'true')
-$done({ body });
+var modifiedHeaders = $request.headers;
+modifiedHeaders[''] = 'true';
+$done({headers : modifiedHeaders});
+
+
