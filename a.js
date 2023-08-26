@@ -4,7 +4,7 @@
 
 *******************************
 [rewrite_local]
-^http[s]?:\/\/wx.appds.cn\/api\/* url script-response-body a.js
+^http[s]?:\/\/wx.appds.cn\/api\/* url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/a.js
 [mitm] 
 hostname = *.appds.cn
 
