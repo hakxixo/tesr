@@ -5,6 +5,7 @@
 *******************************
 [rewrite_local]
 ^http[s]?:\/\/*.next.bspapp.com\/politic\/judgeReciteVip url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/kao1.js
+^http[s]?:\/\/*.next.bspapp.com\/tiaoji\/isVip url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/kao1.js
 [mitm] 
 hostname = *.next.bspapp.com
 
