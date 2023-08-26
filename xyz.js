@@ -12,5 +12,5 @@ hostname = haituncloud.xyz
 *******************************/
 
 var body=$response.body;
-body = body.replace(/need\":\d+/g,'need":"0"');
+body = body.replace(/need\":\d+/g,'need":0');
 $done(body);
