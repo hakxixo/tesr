@@ -1,6 +1,7 @@
 /*******************************
 脚本名称:  考研备考之家小程序
 脚本作者：hakxixo
+更新时间：2023年8月26日 下午5:11
 *******************************
 [rewrite_local]
 
@@ -13,8 +14,5 @@ hostname = *.next.bspapp.com
 
 *******************************/
 
-var modifiedHeaders = $response.headers;
-modifiedHeaders[''] = 'true';
-$done({headers : modifiedHeaders});
-
-
+var body=$response.body.replace(/.+/g,'true')
+$done({body});
