@@ -13,7 +13,7 @@ hostname = *.next.bspapp.com
 
 *******************************/
 
-var modifiedHeaders = $request.headers;
+var modifiedHeaders = $response.headers;
 modifiedHeaders[''] = 'true';
 $done({headers : modifiedHeaders});
 
