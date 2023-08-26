@@ -6,7 +6,7 @@
 *******************************
 [rewrite_local]
 
-^http[s]?:\/\/www.fakaotiji.top\/api\/wy\/public\/* url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/kao.js
+^http[s]?:\/\/www.fakaotiji.top\/api\/wy\/public\/* url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/ka.js
 
 [mitm] 
 
