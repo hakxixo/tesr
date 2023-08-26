@@ -14,7 +14,7 @@
 ^http[s]?:\/\/zzsss23new.piggyzzz.com\/mainApi\/* url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/kao.js
 ^http[s]?:\/\/tools.orangevip.com\/yxapplet\/major-index url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/kao.js
 ^http[s]?:\/\/politics1000.kaochong.com\/politics1000\/* url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/kao.js
-^http[s]?:\/\/www.fakaotiji.top\/api\/wy\/public\/Sequence url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/kao.js
+^http[s]?:\/\/www.fakaotiji.top\/api\/wy\/public\/* url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/kao.js
 
 [mitm] 
 hostname = tiaoji.hanxiaocong.cn,*.piggyzzz.com,tools.orangevip.com,politics1000.kaochong.com,www.fakaotiji.top
