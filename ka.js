@@ -13,6 +13,5 @@
 hostname = www.fakaotiji.top
 
 *******************************/
-
 var body = $response.body.replace(/is_can":\d/g,'is_can":1')
-$done({ body });
+$done({body});
