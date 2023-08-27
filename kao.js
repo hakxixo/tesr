@@ -17,10 +17,11 @@
 ^http[s]?:\/\/tools.orangevip.com\/yxapplet\/major-index url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/kao.js
 ^http[s]?:\/\/politics1000.kaochong.com\/politics1000\/* url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/kao.js
 ^http[s]?:\/\/www.yankean.cn\/english\/get\/user\/info url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/kao.js
+^http[s]?:\/\/zztk.cdky100.vip\/(apitk|apiyz)\/(home|user\/quanxian) url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/kao.js
 
 [mitm] 
-hostname = tiaoji.hanxiaocong.cn,*.piggyzzz.com,tools.orangevip.com,politics1000.kaochong.com,www.yankean.cn
+hostname = tiaoji.hanxiaocong.cn,*.piggyzzz.com,tools.orangevip.com,politics1000.kaochong.com,www.yankean.cn,zztk.cdky100.vip
 *******************************/
 var body=$response.body;
-body = body.replace(/is_vip\":\d+/g,'is_vip":1').replace(/haveauth":\d/g, 'haveauth":1').replace(/oncheck":\d/g, 'oncheck":0').replace(/free_assess_no\":\d+/g,'free_assess_no":999999').replace(/upValue\":\d+/g,'upValue":999999').replace(/errorCode\":\d+/g,'errorCode":0').replace(/vipFlag\":\w+/g,'vipFlag":true');
+body = body.replace(/is_vip\":\d+/g,'is_vip":1').replace(/haveauth":\d/g, 'haveauth":1').replace(/oncheck":\d/g, 'oncheck":0').replace(/free_assess_no\":\d+/g,'free_assess_no":999999').replace(/upValue\":\d+/g,'upValue":999999').replace(/errorCode\":\d+/g,'errorCode":0').replace(/vipFlag\":\w+/g,'vipFlag":true').replace(/jihuo_type\":\s*([^,'jihuo_type":"1"').replace(/ti1600\":\s*\d/g,'ti1600":1').replace(/hexing\": \s*([^,'hexing":"1"');
 $done(body);
