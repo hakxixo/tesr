@@ -4,7 +4,7 @@
 #小程序://考研题库/bKv01vfuohFHhXo
 *******************************
 [rewrite_local]
-^http[s]?:\/\/dev.miniapp.okaoyan.com\/api\/v1\/users\/info url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/take.js
+^http[s]?:\/\/dev.miniapp.okaoyan.com\/api\/v1\/users\/info url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/tzky.js
 [mitm] 
 hostname = dev.miniapp.okaoyan.com
 
