@@ -9,6 +9,7 @@
 [mitm] 
 hostname = zztk.cdky100.vip
 *******************************/
-var body=$response.body;
-body = body.replace(/jihuo_type\":\s*([^,'jihuo_type":"1"').replace(/ti1600\":\s*\d/g,'ti1600":1').replace(/hexing\": \s*([^,'hexing":"1"');
-$done(body);
+var body = $response.body.replace(/jihuo_type":\s*([^,\}\]]+)/g,'jihuo_type":"1"')
+.replace(/ti1600":\s*\d/g,'ti1600":1')
+.replace(/hexing": \s*([^,\}\]]+)/g,'hexing":"1"')
+$done({body});
