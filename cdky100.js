@@ -4,7 +4,7 @@
 #小程序://苍盾政治/FvSgXhusHvOhveg
 *******************************
 [rewrite_local]
-^http[s]?:\/\/zztk.cdky100.vip\/(apiyz\/user\/quanxian|/apitk/home) url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/cdky100.js
+^http[s]?:\/\/zztk.cdky100.vip\/(apiyz\/user\/quanxian|apitk\/home) url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/cdky100.js
 [mitm] 
 hostname = zztk.cdky100.vip
 *******************************/
