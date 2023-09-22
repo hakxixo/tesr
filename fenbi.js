@@ -8,6 +8,5 @@
 [mitm] 
 hostname = english-mini.fenbi.com
 *******************************/
-var body=$response.body;
-body = body.replace(/is_unlock\":\s*([^,'is_unlock":"1"');
+var body = $response.body.replace(/"is_unlock":\s*\w+/g, "\"is_unlock\": 1");
 $done(body);
