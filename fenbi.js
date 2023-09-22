@@ -4,7 +4,7 @@
 #小程序://专业课/0CxzZ0t32nvAC8j
 *******************************
 [rewrite_local]
-^http[s]?:\/\/english-mini.fenbi.com\/xcx\/user\/questionBank url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/fenbi.js
+^http[s]?:\/\/english-mini.fenbi.com\/* url script-response-body https://raw.githubusercontent.com/hakxixo/tesr/main/fenbi.js
 [mitm] 
 hostname = english-mini.fenbi.com
 *******************************/
