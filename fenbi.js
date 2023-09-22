@@ -9,5 +9,5 @@
 hostname = english-mini.fenbi.com
 *******************************/
 var body=$response.body;
-body = body.replace(/is_unlock\":\s*([^,'is_unlock":"1"');
+body = body.replace(/is_unlock\":\s*([^,\}\]]+),'is_unlock":"1"');
 $done(body);
